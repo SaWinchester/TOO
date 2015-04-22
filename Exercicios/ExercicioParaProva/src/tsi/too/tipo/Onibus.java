@@ -49,7 +49,7 @@ public class Onibus {
 
 	@Override
 	public String toString() {
-		return "Motorista: " + motorista;
+		return "Motorista: " + motorista + String.format(", Taxa R$%1.2f.", taxa);
 	}
 	
 	public boolean adicionaPassageiro(Passageiro passageiro) {

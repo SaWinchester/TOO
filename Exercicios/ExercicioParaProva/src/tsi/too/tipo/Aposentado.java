@@ -22,7 +22,7 @@ public class Aposentado extends Passageiro {
 
 	@Override
 	public String toString() {
-		return super.toString() + ", RG:" + rg+ ".";
+		return super.toString() + ", RG: " + rg+ ".";
 	}
 
 	@Override
